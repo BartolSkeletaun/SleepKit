@@ -29,7 +29,7 @@
         android:layout_marginLeft="92dp"
         android:layout_marginTop="8dp"
         android:gravity="center_vertical"
-        android:text="Thank you and Welcome to SleepKit. The App that aims to make your Journey always a restful one.\n\n\nWe have so much to show you!\n\n\nPlease click Next to registrar your app and begin your Journey to the land of Slumber  "
+        android:text="Thank you and Welcome to SleepKit. The App that aims to make your Journey always a restful one.\n\n\nWe have so much to show you!\n\n\nPlease click Next to register your app and begin your Journey to the land of Slumber  "
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
