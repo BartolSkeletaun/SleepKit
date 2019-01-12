@@ -21,11 +21,6 @@ public class Home extends AppCompatActivity {
     private int sound1;
 
 
-    public void pauseAudio(View view) {
-
-
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,7 +43,6 @@ public class Home extends AppCompatActivity {
         sound1 = soundPool.load(this, R.raw.bs1, 1);
 
 
-
     }
 
 
@@ -58,8 +52,17 @@ public class Home extends AppCompatActivity {
                 soundPool.play(1, 1, 1, 0, -
                         1, 1);
                 break;
+
         }
 
 
+    }
+
+    public void pauseAudio(View view1) {
+        switch (view1.getId()) {
+            case R.id.button_pause:
+            soundPool.autoPause();
+            break;
+        }
     }
 }
